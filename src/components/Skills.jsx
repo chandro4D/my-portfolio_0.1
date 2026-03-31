@@ -18,7 +18,17 @@ const Skills = () => {
             <div className="bg-white mb-10">
                 <div className="text-center  ">
                     <h1 className="text-5xl text-purple-600 font-bold mb-[20px] mt-[100px]">My Expert Areas </h1>
-                    <p className="text-gray-500 text-xl mt-3">``Express yourself freely and creatively, using customizable templates or crafting your own designs <br /> from scratch, with access to a vast and immersive library.`` </p>
+                    <p className="text-gray-500 text-xl mt-3">
+                        {/* I specialize in building modern, responsive web applications using React, 
+                        Node.js, and MongoDB. I focus on clean UI design, performance, and scalable 
+                        backend development. */}
+
+                        Skilled in full-stack web development with expertise in JavaScript, React, Node.js, Express, and MongoDB. <br />
+                        Passionate about creating responsive, user-friendly and high-performance applications.
+
+                        {/* Turning ideas into interactive web experiences using modern technologies like React, Tailwind CSS, and Node.js. 
+                        Focused on clean design and efficient performance. */}
+                    </p>
                     {/* Skills Section */}
                     <div className="mt-10 mb-30 text-center">
                         {/* 🔹 Bulletin Scroll Container */}
