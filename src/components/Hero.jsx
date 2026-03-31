@@ -144,7 +144,7 @@ const Hero = () => {
 
                         </a>
                         <a
-                            href="https://www.linkedin.com/in/chandra-shekhor-mondal"
+                            href="https://www.linkedin.com/in/chandra-shekhor-mondal111/"
                             className="hover:text-violet-900"
                         >
                             <div className=" w-[50px] h-[50px] bg-black/30 backdrop-blur-lg rounded-full flex items-center justify-center">

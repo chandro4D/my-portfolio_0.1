@@ -1,40 +1,46 @@
 import { GiGraduateCap } from "react-icons/gi";
+import { motion } from "framer-motion";
 const Skills = () => {
 
-
+    const skills = [
+        { name: "HTML", src: "https://i.ibb.co/GHDn9wY/HTML.png" },
+        { name: "CSS", src: "https://i.ibb.co/4YFH8rz/css.png" },
+        { name: "JavaScript", src: "https://i.ibb.co/kxVpg7V/Java-Script.png" },
+        { name: "React", src: "https://i.ibb.co/bKp9mFP/react.png" },
+        { name: "Tailwind", src: "https://i.ibb.co/h8xTh68/tailwind.png" },
+        { name: "Firebase", src: "https://i.ibb.co/s5Hh81r/firebase.png" },
+        { name: "Node.js", src: "https://i.ibb.co/ZWz3SHr/node.png" },
+        { name: "Express", src: "https://i.ibb.co/tYfnKcB/express.png" },
+        { name: "MongoDB", src: "https://i.ibb.co/xSGpYQZ/mongo.png" },
+    ];
     return (
         <section id="skills" >
             <div className="bg-white mb-10">
                 <div className="text-center  ">
                     <h1 className="text-5xl text-purple-600 font-bold mb-[20px] mt-[100px]">My Expert Areas </h1>
                     <p className="text-gray-500 text-xl mt-3">``Express yourself freely and creatively, using customizable templates or crafting your own designs <br /> from scratch, with access to a vast and immersive library.`` </p>
-                    <div className="flex lg:ml-[250px] sm:[ml-100px] mt-10 ">
-                        <div>
-                            <img className="w-[100px] h-[100px] mr-3 " src="https://i.ibb.co/GHDn9wY/HTML.png" alt="" />
-                        </div>
-                        <div>
-                            <img className="w-[100px] h-[100px] mr-3 " src="https://i.ibb.co/4YFH8rz/css.png" alt="" />
-                        </div>
-                        <div>
-                            <img className="w-[100px] h-[100px] mr-3 " src="https://i.ibb.co/kxVpg7V/Java-Script.png" alt="" />
-                        </div>
-                        <div>
-                            <img className="w-[100px] h-[100px] mr-3 " src="https://i.ibb.co/bKp9mFP/react.png" alt="" />
-                        </div>
-                        <div>
-                            <img className="w-[100px] h-[100px] mr-3 " src="https://i.ibb.co/h8xTh68/tailwind.png" alt="" />
-                        </div>
-                        <div>
-                            <img className="w-[100px] h-[100px] mr-3 " src="https://i.ibb.co/s5Hh81r/firebase.png" alt="" />
-                        </div>
-                        <div>
-                            <img className="w-[100px] h-[100px] mr-3 " src="https://i.ibb.co/ZWz3SHr/node.png" alt="" />
-                        </div>
-                        <div>
-                            <img className="w-[100px] h-[100px] mr-3 " src="https://i.ibb.co/tYfnKcB/express.png" alt="" />
-                        </div>
-                        <div>
-                            <img className="w-[100px] h-[100px] mb-10  " src="https://i.ibb.co/xSGpYQZ/mongo.png" alt="" />
+                    {/* Skills Section */}
+                    <div className="mt-10 mb-30 text-center">
+                        {/* 🔹 Bulletin Scroll Container */}
+                        <div className="w-[1000px] mx-auto overflow-hidden  rounded-xl">
+                            <motion.div
+                                className="flex gap-6 w-max"
+                                animate={{ x: ["0%", "-50%"] }}
+                                transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
+                            >
+                                {/* Duplicate skills for endless scroll */}
+                                {skills.concat(skills).map((skill, index) => (
+                                    <div
+                                        key={index}
+                                        className="flex flex-col items-center bg-white shadow-md rounded-xl p-3 w-[100px] hover:scale-110 transition duration-300"
+                                    >
+                                        <img src={skill.src} alt={skill.name} className="w-16 h-16 mb-2" />
+                                        <span className="text-sm font-semibold text-gray-700 text-center">
+                                            {skill.name}
+                                        </span>
+                                    </div>
+                                ))}
+                            </motion.div>
                         </div>
                     </div>
 
