@@ -98,12 +98,12 @@ const Hero = () => {
             <div className="relative ml-[100px] z-10 flex flex-col-reverse lg:flex-row items-center justify-center w-full max-w-screen-xl">
                 {/* Left Text Content */}
                 <div className=" pt-[110px] lg:mt-0 text-left max-w-xl">
-                    <h1 className="mb-[10px] lg:text-5xl sm:text-2xl text-white font-black">
+                    <h1 className="mb-[10px]  lg:text-5xl sm:text-2xl text-white font-black font-poppins">
                         Hello, I'm
                     </h1>
 
                     {/* Typing Effect */}
-                    <h1 className="mb-[30px] text-pink-300 lg:text-4xl sm:text-3xl font-black">
+                    <h1 className="mb-[30px] font-poppins text-pink-300 lg:text-4xl sm:text-3xl font-black">
                         <Typewriter
                             words={[
                                 "Chandra Shekhor Mondal",

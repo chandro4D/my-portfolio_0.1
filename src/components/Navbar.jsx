@@ -37,10 +37,10 @@ const Navbar = () => {
             <div className="w-full flex justify-between items-center px-6 pt-[30px] max-w-screen-xl mx-auto">
                 {/* Logo */}
                 <h1
-                    className="text-2xl pl-[100px] font-bold  cursor-pointer"
+                    className="text-2xl pl-[100px] font-extrabold font-poppins  cursor-pointer"
                     onClick={() => scrollToSection("home")}
                 >
-                    <span className="text-pink-300">C</span>handra  <span className="text-pink-300 ml-2">S</span>hekhor <span className="text-pink-300 ml-2">M</span>ondal
+                    <span className="text-pink-300 ">C</span>handra  <span className="text-pink-300 ml-2">S</span>hekhor <span className="text-pink-300 ml-2">M</span>ondal
                 </h1>
 
                 {/* Desktop Menu */}

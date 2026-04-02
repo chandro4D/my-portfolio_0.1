@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&family=Fira+Code:wght@400;700&display=swap');
+
 :root {
     --text: #6b6375;
     --text-h: #08060d;
@@ -58,7 +60,7 @@
 #root {
     max-width: 100%;
     margin: 0 auto;
-    
+
     border-inline: 1px solid var(--border);
     min-height: 100svh;
     display: flex;
@@ -96,4 +98,25 @@ code {
     line-height: 135%;
     padding: 4px 8px;
     background: var(--code-bg);
+}
+
+/* for fonts */
+
+
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Code / monospace sections */
+.font-fira {
+    font-family: 'Fira Code', monospace;
 }
