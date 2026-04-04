@@ -37,7 +37,7 @@ const Navbar = () => {
             <div className="w-full flex justify-between items-center px-6 pt-[30px] max-w-screen-xl mx-auto">
                 {/* Logo */}
                 <div className="flex pl-[100px]">
-                    <img className="w-[45px] h-[40px]" src="/csm.svg" alt="" />
+                    {/* <img className="w-[45px] h-[40px]" src="/new.svg" alt="" /> */}
                     <h1
                         className="text-2xl  font-extrabold font-poppins  cursor-pointer"
                         onClick={() => scrollToSection("home")}
