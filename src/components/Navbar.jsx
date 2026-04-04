@@ -29,19 +29,22 @@ const Navbar = () => {
     return (
         <nav
             className={`fixed top-0 h-[100px] left-0 w-full z-50 transition-all duration-300 ${scrolled
-                    ? "bg-black/30 backdrop-blur-lg border-b border-white/10"
-                    : "bg-black" 
+                ? "bg-black/30 backdrop-blur-lg border-b border-white/10"
+                : "bg-black"
                 }`}
         >
 
             <div className="w-full flex justify-between items-center px-6 pt-[30px] max-w-screen-xl mx-auto">
                 {/* Logo */}
-                <h1
-                    className="text-2xl pl-[100px] font-extrabold font-poppins  cursor-pointer"
-                    onClick={() => scrollToSection("home")}
-                >
-                    <span className="text-pink-300 ">C</span>handra  <span className="text-pink-300 ml-2">S</span>hekhor <span className="text-pink-300 ml-2">M</span>ondal
-                </h1>
+                <div className="flex pl-[100px]">
+                    <img className="w-[45px] h-[40px]" src="/csm.svg" alt="" />
+                    <h1
+                        className="text-2xl  font-extrabold font-poppins  cursor-pointer"
+                        onClick={() => scrollToSection("home")}
+                    >
+                         <span className="text-pink-300 ">C</span>handra  <span className="text-pink-300 ml-2">S</span>hekhor <span className="text-pink-300 ml-2">M</span>ondal
+                    </h1>
+                </div>
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex pr-[100px] items-center gap-8 text-sm font-medium">

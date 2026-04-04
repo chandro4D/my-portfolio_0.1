@@ -17,7 +17,7 @@ const Skills = () => {
         <section id="skills" >
             <div className="bg-white mb-10">
                 <div className="text-center  ">
-                    <h1 className="text-5xl text-purple-600 font-bold mb-[20px] mt-[100px]">My Expert Areas </h1>
+                    <h1 className="text-6xl text-purple-600 font-poppins font-black mb-[20px] mt-[100px]">My Expert Areas </h1>
                     <p className="text-gray-500 text-xl mt-3">
                         {/* I specialize in building modern, responsive web applications using React, 
                         Node.js, and MongoDB. I focus on clean UI design, performance, and scalable 
@@ -58,9 +58,9 @@ const Skills = () => {
 
 
                 </div>
-                <div className="flex ml-[540px]">
+                <div className="flex ml-[480px]">
                     <h2><GiGraduateCap className="text-5xl text-indigo-500 mr-5" /></h2>
-                    <h2 className="text-5xl text-center font-semibold text-indigo-500">My Education</h2>
+                    <h2 className="text-5xl text-center font-poppins font-extrabold text-indigo-500">My Education</h2>
                 </div>
                 <div className="card bg-gradient-to-r from-pink-500 ml-[430px] mt-5   to-indigo-500  w-[600px] shadow-xl">
                     <div className="card-body text-xl text-white">

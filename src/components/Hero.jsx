@@ -98,7 +98,7 @@ const Hero = () => {
             <div className="relative ml-[100px] z-10 flex flex-col-reverse lg:flex-row items-center justify-center w-full max-w-screen-xl">
                 {/* Left Text Content */}
                 <div className=" pt-[110px] lg:mt-0 text-left max-w-xl">
-                    <h1 className="mb-[10px]  lg:text-5xl sm:text-2xl text-white font-black font-poppins">
+                    <h1 className="mb-[10px]  lg:text-5xl sm:text-2xl text-white font-black     ">
                         Hello, I'm
                     </h1>
 
@@ -154,7 +154,7 @@ const Hero = () => {
                         <div>
                             <a href="https://drive.google.com/uc?export=download&id=1q48cJ_nCwcsn36vsUn2Tkjs1fIxI8BgG" download>
                                 <button className="border border-pink-300  hover:bg-black/30 hover:backdrop-blur-lg flex items-center text-pink-300 justify-center h-[50px] text-center w-[200px] font-medium text-xl rounded-3xl mr-3">
-                                    <FiDownload className="size-6 mr-2" /> Download CV
+                                    <FiDownload className="size-6 mr-2 font-poppins" /> Resume
                                 </button>
                             </a>
 

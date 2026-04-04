@@ -6,8 +6,8 @@ const Contact = () => {
     return (
         <section id="contact">
             <div className=" bg-black h-[900px]">
-                <h2 className="text-5xl font-semibold text-white pt-28 pb-3 text-center">Let’s work together! </h2>
-                <h4 className="text-3xl font-medium text-white mb-10 text-center">Contact Me</h4>
+                <h2 className="text-5xl font-bold font-poppins text-white pt-28 pb-3 text-center">Let’s work together! </h2>
+                <h4 className="text-4xl font-semibold text-white font-poppins mb-10 text-center">Contact Me</h4>
                 <div className="flex">
                     <div className="bg-gradient-to-r from-purple-600 lg:ml-[250px]   rounded-xl   to-white w-[600px] h-[600px]">
                         <div className="flex ml-20 pt-20">

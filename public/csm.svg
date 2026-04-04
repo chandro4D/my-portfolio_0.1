@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 300 150">
+    <defs>
+        <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#00ffcc" />
+            <stop offset="100%" stop-color="#00ffaa" />
+        </linearGradient>
+
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="6" result="blur" />
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Transparent background (nothing here) -->
+
+    <text x="50%" y="55%"
+        text-anchor="middle"
+        fill="url(#glowGrad)"
+        font-size="100"
+        font-family="Georgia, serif"
+        font-weight="800"
+        filter="url(#glow)">
+        CSM
+    </text>
+</svg>

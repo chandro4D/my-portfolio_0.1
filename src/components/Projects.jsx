@@ -3,7 +3,7 @@ const Projects = () => {
         <section id="projects" >
             <div className="bg-gradient-to-r from-indigo-500  to-pink-500 lg:h-[600px]">
                 <div >
-                    <h1 className="pt-[100px] text-white text-5xl font-bold text-center">My Latest Projects</h1>
+                    <h1 className="pt-[100px] text-white font-poppins text-6xl font-black text-center">My Latest Projects</h1>
                 </div>
 
                 <div className="lg:flex mt-[60px] mb-[500px] lg:ml-[100px]">
