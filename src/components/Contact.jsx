@@ -83,7 +83,7 @@ const Contact = () => {
                             <HiOutlinePhone className="text-3xl text-blue-500 animate-bounce" />
                             <div>
                                 <h1 className="text-xl">Phone</h1>
-                                <h2>+880 01929432285</h2>
+                                <h2>+880 01759626470</h2>
                             </div>
                         </motion.div>
 
@@ -96,7 +96,7 @@ const Contact = () => {
                             <TfiEmail className="text-3xl text-blue-500 animate-bounce" />
                             <div>
                                 <h1 className="text-xl">Email</h1>
-                                <h2>skpathim568482@gmail.com</h2>
+                                <h2>chandroshakhor7@gmail.com</h2>
                             </div>
                         </motion.div>
 
