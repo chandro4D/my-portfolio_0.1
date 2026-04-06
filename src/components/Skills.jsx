@@ -15,10 +15,10 @@ const Skills = () => {
     ];
     return (
         <section id="skills" >
-            <div className="bg-white mb-10">
+            <div className="bg-white mb-10  ">
                 <div className="text-center  ">
                     <h1 className="text-6xl text-purple-600 font-poppins font-black mb-[20px] mt-[100px]">My Expert Areas </h1>
-                    <p className="text-gray-500 text-xl mt-3">
+                    <p className="text-gray-500 text-xl mt-3 mb-[10px]">
                         {/* I specialize in building modern, responsive web applications using React, 
                         Node.js, and MongoDB. I focus on clean UI design, performance, and scalable 
                         backend development. */}
@@ -30,19 +30,19 @@ const Skills = () => {
                         Focused on clean design and efficient performance. */}
                     </p>
                     {/* Skills Section */}
-                    <div className="mt-10 mb-30 text-center">
+                    <div className=" text-center mt-[30px] mb-[50px]">
                         {/* 🔹 Bulletin Scroll Container */}
-                        <div className="w-[1000px] mx-auto overflow-hidden  rounded-xl">
+                        <div className="w-[1000px] h-[200px] mx-auto overflow-hidden pt-[20px] ">
                             <motion.div
                                 className="flex gap-6 w-max"
                                 animate={{ x: ["0%", "-50%"] }}
-                                transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
+                                transition={{ repeat: Infinity, duration: 16, ease: "linear" }}
                             >
                                 {/* Duplicate skills for endless scroll */}
                                 {skills.concat(skills).map((skill, index) => (
                                     <div
                                         key={index}
-                                        className="flex flex-col items-center bg-white shadow-md rounded-xl p-3 w-[100px] hover:scale-110 transition duration-300"
+                                        className="flex flex-col pt-[20px] items-center bg-white shadow-md border border-gray-100 hover:border-[2px] hover:border-pink-300 rounded-xl p-3 w-[100px] hover:scale-110 transition duration-300"
                                     >
                                         <img src={skill.src} alt={skill.name} className="w-16 h-16 mb-2" />
                                         <span className="text-sm font-semibold text-gray-700 text-center">
@@ -54,19 +54,16 @@ const Skills = () => {
                         </div>
                     </div>
 
-
-
-
                 </div>
                 <div className="flex ml-[480px]">
                     <h2><GiGraduateCap className="text-5xl text-indigo-500 mr-5" /></h2>
                     <h2 className="text-5xl text-center font-poppins font-extrabold text-indigo-500">My Education</h2>
                 </div>
-                <div className="card bg-gradient-to-r from-pink-500 ml-[430px] mt-5   to-indigo-500  w-[600px] shadow-xl">
+                <div className="card  ml-[430px] mt-5  bg-black/50 backdrop-blur-lg  w-[600px] shadow-xl">
                     <div className="card-body text-xl text-white">
                         <h2 className="card-title text-blue-700">2023-Present</h2>
-                        <h2>Bachelor of Science in Computer Science and Engineering</h2>
-                        <h3 className="">Northern University of Business and Technology,Khulna</h3>
+                        <h2 className="text-lg">Bachelor of Science in Computer Science and Engineering</h2>
+                        <h3 className="text-lg">Northern University of Business and Technology,Khulna</h3>
 
                     </div>
                 </div>

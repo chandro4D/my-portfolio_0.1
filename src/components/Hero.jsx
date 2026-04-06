@@ -119,46 +119,35 @@ const Hero = () => {
                         />
                     </h1>
 
-                    <p className="bg-black/30 backdrop-blur-lg  lg:text-xl sm:text-base text-white w-[650px] h-[150px] mb-5 rounded-lg p-6">
+                    <p className="bg-black/10 backdrop-blur-lg  lg:text-xl sm:text-base text-white w-[650px] h-[150px] mb-5 rounded-lg p-6">
                         Passionate web developer crafting beautiful and functional <br />digital experiences. Specializing in modern web <br /> technologies and responsive design.
                     </p>
 
                     {/* Buttons */}
                     <div className="flex items-center flex-wrap gap-3 mt-[30px]">
-                        <a
-                            href="https://github.com/chandro4D"
-                            className="text-white hover:text-pink-400"
-                        >
-                            <div className=" w-[50px] h-[50px] bg-black/30 backdrop-blur-lg rounded-full flex items-center justify-center">
-                                <FaGithub className="w-[30px] h-[30px]" />
-                            </div>
-
-                        </a>
-                        <a
-                            href="https://www.facebook.com/chandro.shakhor.1"
-                            className="text-blue-600 hover:text-blue-400"
-                        >
-                            <div className=" w-[50px] h-[50px] bg-black/30 backdrop-blur-lg rounded-full flex items-center justify-center">
-                                <ImFacebook2 className="w-[30px] h-[30px] rounded-full text-while " />
-                            </div>
-
-                        </a>
-                        <a
-                            href="https://www.linkedin.com/in/chandra-shekhor-mondal111/"
-                            className="hover:text-violet-900"
-                        >
-                            <div className=" w-[50px] h-[50px] bg-black/30 backdrop-blur-lg rounded-full flex items-center justify-center">
-                                <ImLinkedin className="w-[30px] h-[30px] rounded-full text-violet-500" />
-                            </div>
-                        </a>
                         <div>
                             <a href="https://drive.google.com/uc?export=download&id=1q48cJ_nCwcsn36vsUn2Tkjs1fIxI8BgG" download>
                                 <button className="border border-pink-300  hover:bg-black/30 hover:backdrop-blur-lg flex items-center text-pink-300 justify-center h-[50px] text-center w-[200px] font-medium text-xl rounded-3xl mr-3">
-                                    <FiDownload className="size-6 mr-2 font-poppins" /> Resume
+                                    <FiDownload className="size-6 font-poppins" /> Resume
                                 </button>
                             </a>
 
                         </div>
+                        <div className="flex lg:gap-5 gap-1 ml-5">
+                            <a href="https://github.com/chandro4D">
+                                <FaGithub className=" lg:w-[45px] bg-black/20 backdrop-blur-lg w-[50px] h-[50px] lg:h-[45px] text-white transition duration-300 hover:scale-125 hover:text-black hover:bg-white p-2 rounded-full" />
+                            </a>
+
+                            <a href="https://www.facebook.com/chandro.shakhor.1">
+                                <ImFacebook2 className="lg:w-[45px] bg-black/20 backdrop-blur-lg w-[50px] h-[50px] lg:h-[45px] text-white transition duration-300 hover:scale-125 hover:bg-blue-600 p-2 rounded-full" />
+                            </a>
+
+                            <a href="http://www.linkedin.com/in/chandra-shekhor-mondal111">
+                                <ImLinkedin className="lg:w-[45px] bg-black/20 backdrop-blur-lg w-[50px] h-[50px] lg:h-[45px] text-white transition duration-300 hover:scale-125 hover:bg-blue-800 p-2 rounded-full" />
+                            </a>
+
+                        </div>
+
                     </div>
 
                 </div>

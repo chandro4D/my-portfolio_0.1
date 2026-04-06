@@ -34,12 +34,12 @@ const Navbar = () => {
                 }`}
         >
 
-            <div className="w-full flex justify-between items-center px-6 pt-[30px] max-w-screen-xl mx-auto">
+            <div className="w-full flex justify-between items-center px-6  max-w-screen-xl mx-auto">
                 {/* Logo */}
-                <div className="flex pl-[100px]">
+                <div className="flex pl-[80px] pt-[25px]">
                     {/* <img className="w-[45px] h-[40px]" src="/new.svg" alt="" /> */}
                     <h1
-                        className="text-2xl  font-extrabold font-poppins  cursor-pointer"
+                        className="text-3xl  font-extrabold font-poppins  cursor-pointer"
                         onClick={() => scrollToSection("home")}
                     >
                          <span className="text-pink-300 ">C</span>handra  <span className="text-pink-300 ml-2">S</span>hekhor <span className="text-pink-300 ml-2">M</span>ondal
@@ -47,7 +47,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Desktop Menu */}
-                <ul className="hidden md:flex pr-[100px] items-center gap-8 text-sm font-medium">
+                <ul className="hidden md:flex pr-[100px] pt-[30px] items-center gap-8 text-base font-medium">
                     {navItems.map((item) => (
                         <li key={item.id} className="relative">
                             <button

@@ -62,11 +62,10 @@ const Contact = () => {
                                 className="input input-bordered input-info hover:border-[2px] hover:border-pink-300 w-[500px] lg:h-[250px] h-[200px] hover:scale-105 transition-transform duration-300 p-3 resize-none"
                             />
                         </div>
-
                         <motion.button
                             whileHover={{ scale: 1.1, backgroundColor: "#7e22ce" }}
                             whileTap={{ scale: 0.95 }}
-                            className="btn btn-ghost text-white lg:ml-[180px] ml-[55px] bg-violet-900 text-xl mt-7 rounded-3xl p-2 shadow-lg transition-colors duration-300"
+                            className="btn btn-ghost text-white lg:ml-[200px] ml-[55px] bg-violet-900 text-xl mt-7 rounded-3xl p-2 shadow-lg transition-colors duration-300"
                         >
                             Send Message
                         </motion.button>
