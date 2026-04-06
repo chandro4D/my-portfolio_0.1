@@ -29,7 +29,7 @@ const Projects = () => {
     ];
 
     return (
-        <section id="projects" className="py-20 bg-gradient-to-b from-black via-[#0f0c29] to-black text-white">
+        <section id="projects" className="pt-24 bg-gradient-to-r from-black via-gray-900 to-black text-white">
 
             {/* Heading */}
             <div className="text-center mb-16">
