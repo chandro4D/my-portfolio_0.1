@@ -15,7 +15,7 @@ const Skills = () => {
     ];
     return (
         <section id="skills" >
-            <div className="bg-white mb-10  ">
+            <div className="bg-white  ">
                 <div className="text-center  ">
                     <h1 className="text-6xl text-pink-300 font-poppins font-black mb-[20px] mt-[100px]">My Expert Areas </h1>
                     <p className="text-gray-500 text-xl mt-3 mb-[10px]">

@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <section id="about" className="p-10 pb-[160px] bg-gradient-to-r from-black via-gray-900 to-black pt-[150px] ">
+        <section id="about" className="p-10 pt-[150px] pb-[150px]  bg-gradient-to-r from-black via-gray-900 to-black  ">
             <h2 className="text-6xl  text-center font-black mb-4 text-pink-300 font-poppins">About Me</h2>
             <p className="text-center text-gray-400">
                 Passionate about creating beautiful and functional digital experiences that make a difference <br />
