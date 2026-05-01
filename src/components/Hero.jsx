@@ -109,6 +109,7 @@ const Hero = () => {
                                 "Chandra Shekhor Mondal",
                                 "Web Developer",
                                 "Full Stack Web Developer",
+                                "Junior Web Developer",
                             ]}
                             loop={0} // infinite loop
                             cursor
